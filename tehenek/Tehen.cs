@@ -15,7 +15,7 @@ namespace tehenek
             int nemNulla = 0;
             for (int i = 0; i < Mennyisegek.Length; i++)
             {
-                if (Mennyisegek[i] != 0)
+                if (Mennyisegek[i] > 0)
                 {
                     nemNulla++;
                 }
